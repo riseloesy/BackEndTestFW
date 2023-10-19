@@ -1,0 +1,25 @@
+2023-10-19 16:13:09 302 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\BackEndTestFW\target\classes\backendtest\book\dao\mapper\BookMapper.class]
+2023-10-19 16:13:09 570 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 16:13:10 124 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 16:13:10 132 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70fab835] was not registered for synchronization because synchronization is not active
+2023-10-19 16:13:10 151 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@515520300 wrapping org.mariadb.jdbc.Connection@21ec5d87] will not be managed by Spring
+2023-10-19 16:13:10 159 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookById - ==>  Preparing: select * from book where title=?
+2023-10-19 16:13:10 187 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookById - ==> Parameters: 개미(String)
+2023-10-19 16:13:10 216 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookById - <==      Total: 1
+2023-10-19 16:13:10 217 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70fab835]
+2023-10-19 16:14:02 672 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\sts3.9-bundle\workspace\BackEndTestFW\target\classes\backendtest\book\dao\mapper\BookMapper.class]
+2023-10-19 16:14:02 861 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-10-19 16:14:03 321 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 16:14:03 328 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70fab835] was not registered for synchronization because synchronization is not active
+2023-10-19 16:14:03 341 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@515520300 wrapping org.mariadb.jdbc.Connection@21ec5d87] will not be managed by Spring
+2023-10-19 16:14:03 350 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookById - ==>  Preparing: select * from book where title=?
+2023-10-19 16:14:03 379 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookById - ==> Parameters: 개미(String)
+2023-10-19 16:14:03 412 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookById - <==      Total: 1
+2023-10-19 16:14:03 421 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70fab835]
+2023-10-19 16:14:03 428 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2023-10-19 16:14:03 429 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2de366bb] was not registered for synchronization because synchronization is not active
+2023-10-19 16:14:03 429 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1057569470 wrapping org.mariadb.jdbc.Connection@21ec5d87] will not be managed by Spring
+2023-10-19 16:14:03 429 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookList - ==>  Preparing: select * from book order by id
+2023-10-19 16:14:03 430 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookList - ==> Parameters: 
+2023-10-19 16:14:03 433 [main] DEBUG backendtest.book.dao.mapper.BookMapper.selectBookList - <==      Total: 4
+2023-10-19 16:14:03 433 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2de366bb]

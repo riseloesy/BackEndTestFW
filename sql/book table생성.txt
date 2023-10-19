@@ -1,0 +1,13 @@
+CREATE TABLE book( 
+id int not null auto_increment primary key, 
+title varchar(255) NOT NULL, 
+author varchar(255) NOT NULL, 
+isbn  varchar(10) NOT NULL, 
+genre varchar(255), 
+created_at date default CURRENT_TIMESTAMP 
+); 
+alter table book add unique index book_isbn_idx(isbn); 
+insert into book(title,author,isbn,genre) values ('개미','베르나르베르베르','9788925554','소설'); 
+insert into book(title,author,isbn,genre) values ('풍경수필','한기홍','9788978149','수필'); 
+insert into book(title,author,isbn,genre) values ('흔한남매','유난희','9791168416','만화'); 
+insert into book(title,author,isbn,genre) values ('ETS토익','YBM','9788917238','학습');
